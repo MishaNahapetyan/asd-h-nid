@@ -1,0 +1,28 @@
+{
+    "name": "asd/nid",
+    "description": "Nid integration",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Misha",
+            "email": "misha.nahapetyan@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "orchestra/testbench": "^9.0"
+    },
+    "autoload" : {
+        "psr-4": {
+            "asd\\NID\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "asd\\NID\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.8",
+        "firebase/php-jwt": "^6.10"
+    }
+}
